@@ -36,7 +36,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
               aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <i class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -75,7 +75,7 @@
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link">Disabled</a>
+                  <a class="nav-link"><i class="fa fa-shopping-bag"></i></a>
                 </li>
               </ul>
             </div>
@@ -84,13 +84,13 @@
       </div>
 
       <!-- collapse box -->
-      <div id="nav-btm" class="collapse show">
+      <div id="nav-btm" class="collapse">
         <nav class="navbar navbar-expand-lg">
           <div class="container">
             <a class="navbar-brand" href="index.html">
               <img src="images/nav-btm-logo.png" alt="logo" class="img-fluid">
             </a>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link">Tech Specs</a>
               </li>
@@ -114,9 +114,11 @@
     <div class="container">
       <!-- hero top section -->
       <div class="hero-top">
-        <h1 class="">AirPods Pro</h1>
-        <div class="hero-top-img wow slideInLeft">
-          <img src="images/hero-top.png" alt="" class="">
+        <div class="hero-top-img wow slideInDown">
+          <img src="images/hero-top.png" alt="" class="img-fluid">
+        </div>
+        <div class="">
+          <h1 class="">AirPods Pro</h1>
         </div>
         <div class="hero-top-btn">
           <a href="#" class="btn btn-info">Learn More</a>
@@ -138,57 +140,68 @@
   <!-- hero section end -->
 
   <!-- comfort section start -->
-  <!-- comfort-top -->
-  <div class="comfort-top">
-    <div class="container">
-      <div class="title">
-        <h2>Comfort</h2>
+  <div class="comfort">
+    <div class="container-fluid">
+      <!-- comfort-top -->
+      <div class="comfort-top">
+        <div class="container">
+          <div class="title">
+            <h2>Comfort</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 text">
+              <p>We have redesigned the ergonomics of
+                comfort, resulting in a new category of
+                in-ear headphones with an
+                amazing seal for
+                active noise cancellation. You won't just hear music; you'll also feel it.</p>
+            </div>
+
+            <div class="col-lg-4 comfortImg-left wow slideInLeft">
+              <img src="images/c1.png" alt="" class="img-fluid">
+            </div>
+
+            <div class="col-lg-4 comfortImg-right wow slideInRight">
+              <img src="images/c2.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4 comfortImg-left wow slideInLeft">
-          <img src="images/c1.png" alt="" class="img-fluid">
+
+      <!-- comfort-middle -->
+      <div class="comfort-mid">
+        <div class="comfort-mid-img">
+          <img src="images/comfort-mid-bg.png" alt="" class="img-fluid">
         </div>
-        <div class="col-lg-4 text">
-          <p>We have redesigned the ergonomics of
-            comfort, resulting in a new category of
-            in-ear headphones with an
-            amazing seal for
-            active noise cancellation. You won't just hear music; you'll also feel it.</p>
-        </div>
-        <div class="col-lg-4 comfortImg-right wow slideInRight">
-          <img src="images/c2.png" alt="" class="img-fluid">
+        <div class="container">
+          <div class="comfort-mid-text">
+            <p>Audio Quality</p>
+            <h2>Everything you hear is unheared of</h2>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <!-- comfort-middle -->
-  <div class="comfort-mid">
-    <div class="comfort-mid-img">
-      <img src="images/comfort-mid-bg.png" alt="" class="img-fluid">
-    </div>
-    <div class="comfort-mid-text">
-      <p>Audio Quality</p>
-      <h2>Everything you hear is unheared of</h2>
-    </div>
-
-  </div>
-
-  <!-- comfort-bottom -->
-  <div class="comfort-btm">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 comfort-btmImg-left wow slideInLeft">
-          <img src="images/cl.png" alt="" class="img-fluid">
-        </div>
-        <div class="col-lg-6 comfort-btmImg-right wow slideInRight">
-          <img src="images/cr.png" alt="" class="img-fluid">
-        </div>
-        <div class="comfort-btm-text">
-          <p>Choose from three sizes of soft, flexible silicone tips that click into place. Find the best fit-get
-            the best sound-by using the Ear Tip Fit Test.</p>
-          <p>These internally tapered tips confirm to your ear shape, keeping Airpods Pro secure. Andwith helping
-            equalize pressure, you feel like there's nothing in your ears.</p>
+      <!-- comfort-bottom -->
+      <div class="comfort-btm">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="comfort-btmImg-left wow slideInLeft">
+                <img src="images/cl.png" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="comfort-btmImg-right wow slideInRight">
+                <img src="images/cr.png" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="comfort-btm-text">
+              <p>Choose from three sizes of soft, flexible silicone tips that click into place. Find the best fit-get
+                the best sound-by using the Ear Tip Fit Test.</p>
+              <p>These internally tapered tips confirm to your ear shape, keeping Airpods Pro secure. Andwith helping
+                equalize pressure, you feel like there's nothing in your ears.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -218,43 +231,46 @@
   <!-- sound section end -->
 
   <!-- spec section start -->
-  <div class="spec-top">
+  <div class="spec">
     <div class="container-fluid">
-      <div class="title">
-        <h2>Specifications</h2>
+      <!-- spec-top section -->
+      <div class="spec-top">
+        <div class="title">
+          <h2>Specifications</h2>
+        </div>
+        <div class="spec-top-img">
+          <img src="images/spec-bg2.png" alt="" class="img-fluid">
+          <img src="images/spec-line.png" alt="" class="img-fluid wow slideInRight">
+        </div>
+        <div class="spec-top-text">
+          <p class="first wow slideInLeft">
+            The amplifer powers the speaker driver to remove background noise and works with th H1 chip to control
+            listening levels.
+          </p>
+          <p class="mid wow slideInRight">
+            A super-efficifient high dynamic range amplifier produces pure, incredibly clear sound while also
+            extending
+            battery life
+          </p>
+          <p class="last wow slideInLeft">
+            The Apple-deigned H1 chip employs 10 audio cores, creating incredbly low audio processing latency that
+            enables
+            real-time noise cancellation.
+          </p>
+        </div>
       </div>
-      <div class="spec-top-img">
-        <img src="images/spec-bg2.png" alt="" class="img-fluid">
-        <img src="images/spec-line.png" alt="" class="img-fluid wow slideInRight">
-      </div>
-      <div class="spec-top-text">
-        <p class="first wow slideInLeft">
-          The amplifer powers the speaker driver to remove background noise and works with th H1 chip to control
-          listening levels.
-        </p>
-        <p class="mid wow slideInRight">
-          A super-efficifient high dynamic range amplifier produces pure, incredibly clear sound while also extending
-          battery life
-        </p>
-        <p class="last wow slideInLeft">
-          The Apple-deigned H1 chip employs 10 audio cores, creating incredbly low audio processing latency that enables
-          real-time noise cancellation.
-        </p>
-      </div>
-    </div>
-  </div>
-  <!-- spec bottom section start -->
-  <div class="spec-bottom">
-    <div class="container">
-      <div class="spec-btm-img">
-        <img src="images/spec-btm.png" alt="" class="img-fluid">
-      </div>
-      <div class="spec-btm-text">
-        <p class="wow slideInRight">Powerfull bass is delivered by a custom- built high -excursion, low- distortion
-          speaker driver.</p>
-        <p class="wow slideInLeft">An inward-facing microphone hears sound as you do. Airpods Pro then fine-tune the
-          audio by adjusting the mid
-          and low frequencies.</p>
+      <!-- spec bottom section -->
+      <div class="spec-bottom">
+        <div class="spec-btm-img">
+          <img src="images/spec-btm.png" alt="" class="img-fluid">
+        </div>
+        <div class="spec-btm-text">
+          <p class="wow slideInRight">Powerfull bass is delivered by a custom- built high -excursion, low- distortion
+            speaker driver.</p>
+          <p class="wow slideInLeft">An inward-facing microphone hears sound as you do. Airpods Pro then fine-tune the
+            audio by adjusting the mid
+            and low frequencies.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -262,35 +278,39 @@
 
   <!-- battery section start -->
   <div class="battery">
-    <div class="title">
-      <p>Battery</p>
-      <h2>Charge wirelessly</h2>
-      <h2>Use tirelessly</h2>
-    </div>
-    <div class="battery-img">
-      <img src="images/charge-bg.png" alt="" class="img-fluid">
-    </div>
-    <div class="battery-btm">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="details">
-            <p>More than</p>
-            <h2>24<small>hrs</small></h2>
-            <p>of listening time with multiple<br>additional charges in the case</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="details">
-            <p>upto</p>
-            <h2>4.5<small>hrs</small></h2>
-            <p>of listening time on one charge</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="details">
-            <p>Around</p>
-            <h2>1<small>hrs</small></h2>
-            <p>of listening time on only 5<br>mintues of charging</p>
+    <div class="container-fluid">
+      <div class="title">
+        <p>Battery</p>
+        <h2>Charge wirelessly</h2>
+        <h2>Use tirelessly</h2>
+      </div>
+      <div class="battery-img">
+        <img src="images/charge-bg.png" alt="" class="img-fluid">
+      </div>
+      <div class="battery-btm">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="details">
+                <p>More than</p>
+                <h2>24<small>hrs</small></h2>
+                <p>of listening time with multiple<br>additional charges in the case</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="details">
+                <p>upto</p>
+                <h2>4.5<small>hrs</small></h2>
+                <p>of listening time on one charge</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="details">
+                <p>Around</p>
+                <h2>1<small>hrs</small></h2>
+                <p>of listening time on only 5<br>mintues of charging</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -308,7 +328,7 @@
       </div>
       <div class="shop-items">
         <div class="item">
-          <div class="item-img">
+          <div class="item-img wow slideInDown">
             <img src="images/a1.png" alt="" class="img-fluid">
           </div>
           <p class="bold">Airpods</p>
@@ -319,23 +339,23 @@
         </div>
 
         <div class="item">
-          <div class="item-img">
+          <div class="item-img wow slideInDown">
             <img src="images/a2.png" alt="" class="img-fluid">
           </div>
-          <p class="bold">Airpods</p>
-          <p class="light">2nd Generation</p>
-          <h3>$129</h3>
+          <p class="bold">Airpods Pro</p>
+          <p class="light">3rd Generation</p>
+          <h3>$329</h3>
           <a href="#" class="btn btn-info">Buy</a><br>
           <a href="#" class="btn btn-secondary">Learn more ></a>
         </div>
 
         <div class="item">
-          <div class="item-img">
+          <div class="item-img wow slideInDown">
             <img src="images/a3.png" alt="" class="img-fluid">
           </div>
-          <p class="bold">Airpods</p>
+          <p class="bold">Airpods Ace</p>
           <p class="light">2nd Generation</p>
-          <h3>$129</h3>
+          <h3>$229</h3>
           <a href="#" class="btn btn-info">Buy</a><br>
           <a href="#" class="btn btn-secondary">Learn more ></a>
         </div>
@@ -346,52 +366,75 @@
 
   <!-- footer top section start -->
   <div class="footer-top">
-    <h2>Questions Left?</h2>
-    <div class="form-body">
-      <div class="title">
-        <h2>We will be happy to call you<br>back and consult you</h2>
-      </div>
-      <div class="form">
-
-      </div>
-    </div>
-  </div>
-  <!-- footer top section end -->
-
-  <!-- footer section start -->
-  <div class="footer">
-    <div class="container">
-      <div class="inner-footer">
-        <div class="logo">
-          <img src="images/logo.png" alt="" class="img-fluid">
+    <div class="container-fluid">
+      <h2>Questions Left?</h2>
+      <div class="form-body">
+        <div class="title">
+          <h2>We will be happy to call you<br>back and consult you</h2>
         </div>
-
-        <p>Full Stack Web Developer - &#60;&#47; Coded &#62; by <span>Jaied Hasan</span></p>
-        <ul class="footer-links">
-          <li>
-            <a href="#"><i class="fa fa-facebook-official"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-          </li>
-        </ul>
+        <div class="form">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 offset-lg-4">
+                <label for="email" class="form-label">Your Name</label>
+                <input type="email" class="form-control" id="email" placeholder="Jaied Hasan" name="Name">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 offset-lg-4">
+                <label for="email" class="form-label">Your Phone</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="phone" placeholder="+92 347 4082335">
+                  <span class="input-group-text"><i class="fa fa-globe" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 offset-lg-4">
+                <a href="#" class="btn btn-info">Send</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- footer section end -->
-  <!-- bootsrap.bundle.min.js -->
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <!-- wow js script -->
-  <script src="js/wow.min.js"></script>
-  <script>
-    new WOW().init();
-  </script>
+    <!-- footer top section end -->
+
+    <!-- footer section start -->
+    <div class="footer">
+      <div class="container">
+        <div class="inner-footer">
+          <div class="logo">
+            <img src="images/logo.png" alt="" class="img-fluid">
+          </div>
+
+          <p>Full Stack Web Developer - &#60;&#47; Coded &#62; by <span>Jaied Hasan</span></p>
+          <ul class="footer-links">
+            <li>
+              <a href="#"><i class="fa fa-facebook-official"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- footer section end -->
+    <!-- bootsrap.bundle.min.js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- wow js script -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 </body>
 
 </html>
